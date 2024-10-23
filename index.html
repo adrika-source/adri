@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button></button>
+    <style>
+        button {
+            background-color: white;
+
+            border-radius: 50%;
+            animation-name: bounce;
+            animation-duration: 0.5s;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes bounce {
+            0% {
+                height: 200px;
+                width: 200px;
+                margin-top: 0px;
+                background-color: rgb(255, 30, 0);
+            }
+
+            50% {
+                height: 200px;
+                width: 200px;
+                background-color: rgb(253, 249, 13);
+            }
+
+            100% {
+                height: 150px;
+                width: 200px;
+                margin-top: 200px;
+                background-color: rgb(76, 255, 5);
+            }
+        }
+    </style>
+
+</body>
+
+</html>
